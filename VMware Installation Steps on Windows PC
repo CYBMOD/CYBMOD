@@ -1,0 +1,99 @@
+# VMware Installation Guide for Windows & macOS
+
+## 📌 Overview
+VMware is a powerful virtualization platform that allows users to run multiple operating systems on a single machine. This guide provides step-by-step instructions to install VMware on Windows and macOS.
+
+## 🖥️ Installing VMware Workstation on Windows
+
+### ✅ Prerequisites
+Before proceeding with the installation, ensure your system meets the following requirements:
+- **Operating System**: Windows 10 or later
+- **RAM**: Minimum 4GB (8GB or more recommended)
+- **Storage**: At least 20GB free disk space
+
+### 🔽 Download VMware Workstation Player
+1. Visit [TechSpot](https://www.techspot.com) and download the latest version of **VMware Workstation Player**.
+2. Save the downloaded `.exe` file on your system.
+
+### 🛠️ Install VMware Workstation Player
+1. Locate the downloaded `.exe` file and double-click it to start the installation.
+2. Follow the on-screen instructions:
+   - Accept the **License Agreement**.
+   - Choose the **Installation Path** (default recommended).
+   - Select additional options like VMware Tools updates and customer experience improvement (optional).
+   - Click **Install** and wait for the process to complete.
+3. Once installed, click **Finish**.
+
+### 🚀 Launch VMware Workstation Player
+- Open VMware Workstation from the **Start Menu** or **Desktop Shortcut**.
+
+## 🍏 Installing VMware Fusion on macOS
+
+### ✅ Prerequisites
+Before installing VMware Fusion, ensure your Mac meets the following requirements:
+- **Operating System**: macOS Monterey or later
+- **RAM**: Minimum 4GB (8GB or more recommended)
+- **Storage**: At least 20GB free disk space
+- **Processor**: Intel-based Mac (VMware Fusion does not support Apple Silicon natively; use UTM instead)
+
+### 🔽 Download VMware Fusion
+1. Visit the official [VMware Fusion](https://www.vmware.com/products/fusion.html) website.
+2. Download the latest version suitable for your macOS.
+
+### 🛠️ Install VMware Fusion
+1. Open the downloaded `.dmg` file.
+2. Drag and drop **VMware Fusion** into the Applications folder.
+3. Open VMware Fusion from **Applications**.
+4. Follow the on-screen installation steps, including accepting the **License Agreement**.
+5. Once installed, VMware Fusion is ready to use.
+
+## 🐧 Installing Kali Linux on VMware (Windows & macOS)
+
+### ✅ System Requirements
+- **RAM**: Minimum 4GB
+- **Storage**: 20GB free disk space
+- **Processor**: 64-bit CPU with virtualization support
+
+### 🔽 Download Kali Linux ISO
+1. Visit [Kali Linux Download](https://www.kali.org/get-kali/#kali-installer-images).
+2. Download the **Kali Linux Installer ISO**.
+
+### 🔧 Configure Kali Linux on VMware
+1. Open VMware Workstation/Fusion and select **Create a New Virtual Machine**.
+2. Upload the downloaded **Kali Linux ISO**.
+3. Name the virtual machine and select **Next**.
+4. Set the disk size (default recommended) and click **Next**.
+5. Click **Finish** to save the configuration.
+
+### 🚀 Install Kali Linux
+1. Click **Play Virtual Machine**.
+2. Select **Install**.
+3. Choose **Language & Country**, then set up a **Username & Password**.
+4. Follow the installation steps and wait for completion.
+5. Click **Continue** to reboot into Kali Linux.
+
+## 🍏 Installing Kali Linux on Apple Silicon (M1/M2) Macs using UTM
+
+### 🔽 Download & Install UTM
+1. Visit [UTM](https://mac.getutm.app/) and download the latest version.
+2. Open the `.dmg` file and move UTM to the **Applications** folder.
+
+### 🔧 Configure Kali Linux in UTM
+1. Download the **ARM64 Kali Linux Installer** from [Kali Linux Download](https://www.kali.org/get-kali/).
+2. Open **UTM** and click **Create a New Virtual Machine**.
+3. Select **Virtualize** (not Emulate, as it’s much slower).
+4. Choose **Linux** and upload the Kali ISO.
+5. Allocate system resources (RAM, CPU, storage) based on your system capabilities.
+6. Configure shared directories for easy file transfer.
+7. Click **Create** and **Start** the virtual machine.
+
+### 🚀 Install Kali Linux
+1. Boot from the ISO and start installation.
+2. Select **Graphical Install** or **Install** (CLI version).
+3. Choose Language, Country, and set up a Username & Password.
+4. Complete the installation and reboot.
+5. After reboot, remove the ISO file from the virtual machine settings.
+
+## 🎯 Conclusion
+By following this guide, you can successfully install and configure VMware on Windows and macOS, along with setting up Kali Linux for penetration testing and cybersecurity research. VMware provides a stable environment for running Kali Linux as a virtual machine without affecting your primary operating system.
+
