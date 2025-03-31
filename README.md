@@ -37,7 +37,7 @@ sudo apt-get install sqlmap
 ### Installation
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/WebVAPT.git
+git clone https://github.com/CYBMOD/CYBMOD.git
 ```
 2. Navigate to the project directory:
 ```bash
