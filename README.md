@@ -1,4 +1,4 @@
-# Cybmod2 - Web Application Penetration Testing Script
+Web Application Penetration Testing Script
 
 Cybmod2 is a Bash script designed to automate basic Web Application Vulnerability and Penetration Testing (WebVAPT) tasks. It performs reconnaissance and vulnerability scanning on a target (URL or IP address) using popular tools like Nmap, Nikto, OWASP ZAP, and SQLmap. This script is intended for educational purposes and authorized security testing only.
 
